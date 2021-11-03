@@ -10,7 +10,7 @@
 如果再把 read 函数的细节展开，我们会发现其阻塞在了两个阶段。
 * 第一阶段数据从网卡拷贝到内核缓冲区
 * 第二阶段数据从内核拷贝到用户缓冲区
-![image.png](./image/阻塞IO.png)
+![image.png](https://github.com/hounk801/huohou_blog/blob/main/image/%E9%98%BB%E5%A1%9EIO.png)
 
 如果这个连接的客户端一直不发数据，那么服务端线程将会一直阻塞在 read 函数上不返回，也无法接受其他客户端连接。
 
