@@ -37,7 +37,7 @@ int n = read(connfd, buffer) != SUCCESS);
 当数据已到达内核缓冲区，此时调用 read 函数仍然是阻塞的，需要等待数据从内核缓冲区拷贝到用户缓冲区，才能返回。
 
 整体流程如下图
-![image.png](https://www.hounk.world/upload/2021/10/image-2f49d38e77774671876804c24e90028f.png)
+![image.png](https://github.com/hounk801/huohou_blog/blob/main/image/多路复用-非阻塞IO.png)
 
 但是非阻塞 I/O 的缺点是：每次发起系统调用，只能检查一个文件描述符是否就绪。当文件描述符很多时，系统调用的成本很高。
 
@@ -74,7 +74,7 @@ int select(
 3. select 仅仅返回可读文件描述符的个数，具体哪个可读还是要用户自己遍历。（可优化为只返回给用户就绪的文件描述符，无需用户做无效的遍历）
 
 整个 select 的流程图如下
-![image.png](https://www.hounk.world/upload/2021/10/image-3549adaef91b424ab1219adcbfff31d3.png)
+![image.png](https://github.com/hounk801/huohou_blog/blob/main/image/多路复用-select.png)
 可以看到，这种方式，既做到了一个线程处理多个客户端连接（文件描述符），又减少了系统调用的开销（多个文件描述符只有一次 select 的系统调用 + n 次就绪状态的文件描述符的 read 系统调用）。
 
 select 的缺点
