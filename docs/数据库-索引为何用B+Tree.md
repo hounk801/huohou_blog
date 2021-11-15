@@ -47,7 +47,7 @@ DROP INDEX index_name ON table
 8. 所有叶节点具有相同的深度，等于树高h。
 9. 一个节点中的key从左到右非递减排列。
 10. B-树的非叶子结点的结构形式:
-![image.png](https://www.hounk.world/upload/2021/02/image-d052062fb7f9428a8036f5f7243039a9.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-d052062fb7f9428a8036f5f7243039a9.png)
 ki (1≤i≤j)是关键字，所有关键字的值是唯一的;pi (0≤i≤j)是指向该结点的子结点的指针。例如图中的P1，它指向的子树的关键字应该大于k1，小于k2
 
 一个度为d的B-Tree，设其索引N个key，则其树高h的上限为logd((N+1)/2)，检索一个key，其查找节点个数的渐进复杂度为O(logdN)。从这点可以看出，B-Tree是一个非常有效率的索引数据结构。
