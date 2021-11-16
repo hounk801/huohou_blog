@@ -72,7 +72,7 @@ set @@auto_increment_increment = 2;  -- 步长
 1、3、5、7、9 
 2、4、6、8、10
 那如果集群后的性能还是扛不住高并发咋办？就要进行MySQL扩容增加节点，这是一个比较麻烦的事。
-![image.png](https://www.hounk.world/upload/2021/01/image-47b936dc4db74d28b6c65000b286f8b5.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-47b936dc4db74d28b6c65000b286f8b5.png)
 从上图可以看出，水平扩展的数据库集群，有利于解决数据库单点压力的问题，同时为了ID生成特性，将自增步长按照机器数量来设置。
 增加第三台MySQL实例需要人工修改一、二两台MySQL实例的起始值和步长，把第三台机器的ID起始生成位置设定在比现有最大自增ID的位置远一些，但必须在一、二两台MySQL实例ID还没有增长到第三台MySQL实例的起始ID值的时候，否则自增ID就要出现重复了，必要时可能还需要停机修改。
 **优点：**
@@ -114,7 +114,7 @@ RDB会定时打一个快照进行持久化，假如连续自增但redis没及时
 AOF会对每条写命令进行持久化，即使Redis挂掉了也不会出现ID重复的情况，但由于incr命令的特殊性，会导致Redis重启恢复的数据时间过长。
 ## 6、基于雪花算法（Snowflake）模式
 雪花算法（Snowflake）是twitter公司内部分布式项目采用的ID生成算法，开源后广受国内大厂的好评，在该算法影响下各大公司相继开发出各具特色的分布式生成器。
-![image.png](https://www.hounk.world/upload/2021/01/image-6c7df130abcf4ec5b423d5a60185806c.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-6c7df130abcf4ec5b423d5a60185806c.png)
 Snowflake生成的是Long类型的ID，一个Long类型占8个字节，每个字节占8比特，也就是说一个Long类型占64个比特。
 
 Snowflake ID组成结构：正数位（占1比特）+ 时间戳（占41比特）+ 机器ID（占5比特）+ 数据中心（占5比特）+ 自增值（占12比特），总共64比特组成的一个Long类型。
@@ -265,7 +265,7 @@ snowflake模式获取分布式自增ID的测试url：{域名}/api/snowflake/get/
 ## 9、滴滴（Tinyid）
 Tinyid由滴滴开发，Github地址：https://github.com/didi/tinyid。
 Tinyid是基于号段模式原理实现的与Leaf如出一辙，每个服务获取一个号段（1000,2000]、（2000,3000]、（3000,4000]
-![image.png](https://www.hounk.world/upload/2021/01/image-bcfa1604b4b54245bb13a8e6c433911a.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-bcfa1604b4b54245bb13a8e6c433911a.png)
 Tinyid提供http和tinyid-client两种方式接入
 Http方式接入
 （1）导入Tinyid源码：
