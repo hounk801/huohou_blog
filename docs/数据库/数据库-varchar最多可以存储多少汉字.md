@@ -27,17 +27,17 @@ SELECT LENGTH(fieldname) FROM tablename
 ```sql
 SELECT ta.account_name ,LENGTH(ta.account_name) from t_account ta;
 ```
-![image.png](https://www.hounk.world/upload/2022/02/image-ccd9a176051a4eadafd88daf6fb93b83.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-ccd9a176051a4eadafd88daf6fb93b83.png)
 一个汉字占3个字节，一个字母占一个字节，一个表情占4个字节
 
 ##  GBK 测试
-![image.png](https://www.hounk.world/upload/2022/02/image-37addefd7c614d7594c2e501a2fb358a.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-37addefd7c614d7594c2e501a2fb358a.png)
 首先 插入表情失败
 再来看汉字长度
 ```
 SELECT account_name ,LENGTH(account_name) from t_temp;
 ```
-![image.png](https://www.hounk.world/upload/2022/02/image-9db01dd6f6364a73929504358600c446.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-9db01dd6f6364a73929504358600c446.png)
 
 
 # varchar 最多能存多少值
@@ -65,7 +65,7 @@ ERROR 1118 (42000): Row size too large. The maximum row size for the used table 
 把21845改为21844后Query OK, 0 rows affected (0.06 sec)
 
 ## 使用gbk创建
-![image.png](https://www.hounk.world/upload/2022/02/image-05dce524c336491da640c5265211bed4.png)
+![image.png](https://github.com/oh-huohou/huohou.blog/blob/main/image/image-05dce524c336491da640c5265211bed4.png)
 字节长度32765*2+存储长度使用字节长度2+int类型字节长度4=65536>65535
 当存储长度为 32764 成功Query OK, 0 rows affected (0.03 sec)
 
