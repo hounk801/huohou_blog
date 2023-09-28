@@ -1,11 +1,14 @@
-* [Finance](Finance/README.md)
+# Table of contents
+
+* [数字化大革命](README.md)
+* [Finance](finance/README.md)
   * [市盈率](Finance/市盈率.md)
   * [外汇储备](Finance/外汇储备.md)
   * [桥水基金达利欧：中国大周期及其货币](Finance/中国大周期及其货币.md)
   * [CPI](Finance/CPI.md)
   * [PPI](Finance/PPI.md)
-* [Blockchain](Blockchian/README.md)
-  * [BTC](Blockchain/BTC/README.md)
+* [Blockchain](blockchain/README.md)
+  * [BTC](blockchain/btc/README.md)
     * [白皮书](Blockchain/BTC/白皮书.md)
     * [比特币地址](Blockchain/BTC/比特币地址.md)
     * [单位](Blockchain/BTC/单位.md)
@@ -26,4 +29,4 @@
     * [p2wpkh](Blockchain/BTC/T.p2wpkh.md)
     * [UTXO](Blockchain/BTC/UTXO.md)
   * [助记词-私钥-公钥-地址生成](Blockchain/助记词-私钥-公钥-地址生成.md)
-  * [Smart Contracts](Blockchain/SmartContracts.md)
+  * [Smart Contracts](blockchain/smart-contracts.md)
