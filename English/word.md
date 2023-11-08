@@ -6,6 +6,8 @@ account
 action
 address
 adopt
+advice
+advance
 air
 airport
 after
@@ -13,7 +15,9 @@ afraid
 afternoon
 age
 agree
+agreement
 all
+allow
 an
 analysis
 ant
@@ -31,6 +35,7 @@ bag
 balance
 banana
 bank
+base
 basket
 basketball
 beat
@@ -58,12 +63,14 @@ buy
 by
 # C
 cake
+cancel
 car
 card
 case
 cat
 cell
 chain
+char
 change
 chance
 channel
@@ -73,6 +80,7 @@ china
 chinese
 chose
 choise
+city
 class
 classroom
 click
@@ -81,15 +89,23 @@ cloud
 coffee
 coin
 color
+come
+common
+community
 company
 complete
 computer
+commit
+config
 confirm
 continue
 control
+core
 cost
 count
+country
 cup
+cut
 customer
 # D
 dad
@@ -122,6 +138,7 @@ eighteen
 eighty
 elephent
 empty
+environment
 end
 english
 equal
@@ -171,6 +188,7 @@ grandmother
 green
 group
 # H
+happy
 hair
 hand
 head
@@ -201,7 +219,9 @@ just
 # K
 kid
 kill
+know
 # L
+land
 large
 last
 leader
@@ -209,9 +229,11 @@ left
 leg
 length
 let
+life
 light
 like
 link
+live
 login
 look
 love
@@ -243,6 +265,7 @@ morning
 mother
 monkey
 move
+music
 must
 # N
 name
@@ -362,6 +385,7 @@ student
 submit
 success
 sun
+sunshine
 support
 summer
 swim
@@ -400,12 +424,15 @@ uncle
 under
 understand
 unique
+universe
 university
 up
 update
+use
 user
 # V
 vegetable
+very
 view
 # W
 wait
