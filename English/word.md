@@ -3,9 +3,13 @@ a
 abandon
 activity
 account
+action
 address
 adopt
+air
+airport
 after
+afraid
 afternoon
 age
 agree
@@ -27,9 +31,12 @@ bag
 balance
 banana
 bank
+basket
+basketball
 beat
 beautiful
 before
+between
 big
 bike
 bit
@@ -44,16 +51,21 @@ boyfriend
 break
 build
 building
+bus
 busy
 button
 buy
 by
 # C
+cake
 car
 card
+case
 cat
 cell
 chain
+change
+chance
 channel
 check
 cherry
@@ -62,6 +74,7 @@ chinese
 chose
 choise
 class
+classroom
 click
 clone
 cloud
@@ -73,6 +86,8 @@ complete
 computer
 confirm
 continue
+control
+cost
 count
 cup
 customer
@@ -81,6 +96,7 @@ dad
 data
 database
 date
+day
 delete
 describe
 description
@@ -123,6 +139,7 @@ family
 farm
 far
 father
+fee
 file
 first
 fire
@@ -134,11 +151,15 @@ flower
 floor
 friend
 foot
+football
 for
+follow
 four
 friday
 function
 # G
+game
+gas
 generate
 get
 girl
@@ -155,9 +176,11 @@ hand
 head
 heart
 help
+history
 home
 hot
 house
+hour
 # I
 identity
 ignore
@@ -206,6 +229,9 @@ meet
 meeting
 method
 message
+milk
+million
+minute
 mode
 modify
 monday
@@ -216,12 +242,14 @@ moon
 morning
 mother
 monkey
+move
 must
 # N
 name
 native
 nature
 need
+next
 new
 network
 night
@@ -260,6 +288,7 @@ pencil
 pig
 photo
 phone
+play
 please
 potato
 print
@@ -276,6 +305,10 @@ rain
 rate
 read
 red
+research
+reset
+remove
+replace
 request
 require
 resource
@@ -284,6 +317,7 @@ response
 result
 ride
 right
+room
 run
 # S
 safe
@@ -291,9 +325,11 @@ sale
 save
 school
 sea
+search
 second
 select
 send
+service
 set
 seven
 seventeen
@@ -305,11 +341,13 @@ shippment
 shirt
 shop
 shopmarket
+sit
 six
 sixteen
 sixty
 sleep
 smile
+smoke
 snow
 source
 south
@@ -326,10 +364,13 @@ success
 sun
 support
 summer
+swim
+switch
 system
 # T
 table
 take
+tall
 tea
 teacher
 technology
@@ -359,10 +400,12 @@ uncle
 under
 understand
 unique
+university
 up
 update
 user
 # V
+vegetable
 view
 # W
 wait
@@ -386,6 +429,8 @@ while
 white
 why
 woman
+world
+word
 work
 would
 # X
