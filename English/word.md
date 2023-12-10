@@ -13,6 +13,7 @@ airport
 after
 afraid
 afternoon
+again
 age
 agree
 agreement
@@ -20,6 +21,7 @@ all
 allow
 an
 analysis
+answer
 ant
 apple
 applicant
@@ -83,6 +85,8 @@ choise
 city
 class
 classroom
+clean
+clear
 click
 clone
 cloud
@@ -137,6 +141,7 @@ eight
 eighteen
 eighty
 elephent
+employee
 empty
 environment
 end
@@ -158,6 +163,7 @@ far
 father
 fee
 file
+find
 first
 fire
 fish
@@ -191,11 +197,13 @@ group
 happy
 hair
 hand
+harf
 head
 heart
 help
 history
 home
+homework
 hot
 house
 hour
@@ -211,8 +219,10 @@ input
 insert
 intristing
 invoice
+is
 item
 # J
+job
 judge
 jump
 just
@@ -228,11 +238,13 @@ leader
 left
 leg
 length
+less
 let
 life
 light
 like
 link
+listen
 live
 login
 look
@@ -240,6 +252,7 @@ love
 long
 # M
 mail
+main
 math
 make
 man
@@ -247,6 +260,7 @@ manage
 management
 manufacture
 market
+mean
 meet
 meeting
 method
@@ -261,6 +275,7 @@ money
 month
 mom
 moon
+more
 morning
 mother
 monkey
@@ -350,6 +365,7 @@ school
 sea
 search
 second
+see
 select
 send
 service
@@ -372,20 +388,26 @@ sleep
 smile
 smoke
 snow
+some
 source
 south
 speak
 spring
 stand
 standard
+star
 start
 stone
 store
 student
+study
 submit
 success
 sun
 sunshine
+super
+supermarket
+superstar
 support
 summer
 swim
@@ -397,12 +419,14 @@ take
 tall
 tea
 teacher
+team
 technology
 teeth
 temp
 ten
 test
 text
+thondand
 their
 then
 there
@@ -414,6 +438,8 @@ times
 today
 tomorrow
 three
+transform
+translate
 tree
 try
 tuesday
@@ -437,6 +463,7 @@ view
 # W
 wait
 wallet
+want
 watch
 water
 we
